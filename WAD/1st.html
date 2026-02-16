@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My HTML Basics Page</title>
+
+    <!-- Meta Tags -->
+    <meta name="description" content="Basic HTML Tags Demonstration">
+    <meta name="author" content="Abhay">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: darkblue;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        button {
+            padding: 8px 12px;
+            margin: 5px;
+        }
+        .box {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+
+    <!-- Headings -->
+    <h1>Welcome to My HTML Page</h1>
+    <h2>About Me</h2>
+
+    <!-- Paragraph -->
+    <p>
+        Hello! My name is <b>Abhay</b>.  
+        I am a <i>3rd year IT student</i>.  
+        This page demonstrates <u>basic HTML tags</u>.
+    </p>
+
+    <!-- Line Break and Horizontal Line -->
+    <br>
+    <hr>
+
+    <!-- Image -->
+    <h3>My Profile Image</h3>
+    <img src="https://via.placeholder.com/150" alt="Profile Image">
+
+    <hr>
+
+    <!-- List -->
+    <h3>My Skills</h3>
+
+    <!-- Unordered List -->
+    <ul>
+        <li>Python</li>
+        <li>HTML & CSS</li>
+        <li>SQL</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h3>My Hobbies</h3>
+    <ol>
+        <li>Coding</li>
+        <li>Reading</li>
+        <li>Gaming</li>
+    </ol>
+
+    <hr>
+
+    <!-- Table -->
+    <h3>Education Details</h3>
+    <table>
+        <tr>
+            <th>Course</th>
+            <th>Year</th>
+            <th>Institute</th>
+        </tr>
+        <tr>
+            <td>B.Tech (IT)</td>
+            <td>3rd Year</td>
+            <td>I2IT</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Link -->
+    <h3>My GitHub</h3>
+    <a href="https://github.com/abhayraut2137" target="_blank">
+        Visit My GitHub Profile
+    </a>
+
+    <hr>
+
+    <!-- Form -->
+    <h3>Contact Me</h3>
+    <form>
+        <!-- Text Input -->
+        Name:
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <!-- Email Input -->
+        Email:
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <!-- Radio Buttons -->
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        <!-- Checkbox -->
+        Skills:
+        <input type="checkbox"> Python
+        <input type="checkbox"> HTML
+        <input type="checkbox"> SQL
+        <br><br>
+
+        <!-- Dropdown Menu -->
+        Select Course:
+        <select>
+            <option>IT</option>
+            <option>CSE</option>
+            <option>AI & DS</option>
+        </select>
+        <br><br>
+
+        <!-- Textarea -->
+        Message:<br>
+        <textarea rows="4" cols="40"></textarea>
+        <br><br>
+
+        <!-- Buttons -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <hr>
+
+    <!-- Button with Alert -->
+    <h3>Click Button</h3>
+    <button onclick="alert('Hello! This is a button click.')">
+        Click Me
+    </button>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Abhay | HTML Basics Demo</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
